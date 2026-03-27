@@ -1,0 +1,114 @@
+<!DOCTYPE html><html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vivek Galla Vyapari</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:Arial, sans-serif;background:#f4f6f8;color:#333}
+    header{background:linear-gradient(135deg,#6a4c2d,#a47148);color:#fff;padding:30px 15px;text-align:center}
+    header h1{font-size:28px;margin-bottom:8px}
+    header p{font-size:14px;margin-bottom:10px}
+    .btn{display:inline-block;padding:10px 15px;background:#fff;color:#6a4c2d;text-decoration:none;border-radius:6px;font-weight:bold}
+    nav{background:#8b5e34;padding:10px;text-align:center}
+    nav a{color:#fff;margin:10px;text-decoration:none;font-weight:bold}
+    section{padding:25px 15px}
+    .container{max-width:1100px;margin:auto}
+    h2{margin-bottom:15px;color:#6a4c2d}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.card{background:#fff;padding:20px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.1);text-align:center;font-size:18px}
+
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden}
+th,td{padding:12px;border:1px solid #ddd;text-align:center}
+th{background:#eee}
+
+form{background:#fff;padding:20px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+input,textarea{width:100%;padding:10px;margin:8px 0;border-radius:6px;border:1px solid #ccc}
+button{width:100%;padding:10px;background:#6a4c2d;color:#fff;border:none;border-radius:6px;font-size:16px}
+
+.map iframe{border-radius:12px}
+
+footer{background:#3b2f2f;color:#fff;text-align:center;padding:12px;margin-top:20px}
+
+/* WhatsApp Floating Button */
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:white;
+  padding:12px 15px;
+  border-radius:50px;
+  text-decoration:none;
+  font-size:14px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.2)
+}
+
+  </style>
+</head>
+<body><header>
+  <h1>🌾 Vivek Galla Vyapari</h1>
+  <p>अनाज खरीद-बिक्री | सही तौल | तुरंत पेमेंट</p>
+  <a class="btn" href="tel:6392123395">📞 कॉल करें</a>
+</header><nav>
+  <a href="#home">होम</a>
+  <a href="#products">अनाज</a>
+  <a href="#rates">रेट</a>
+  <a href="#booking">ऑर्डर</a>
+  <a href="#map">लोकेशन</a>
+  <a href="#contact">संपर्क</a>
+</nav><section id="home">
+  <div class="container">
+    <h2>हमारे बारे में</h2>
+    <p>हम गेहूं, धान, चना, सरसों आदि अनाज की खरीद और बिक्री करते हैं। हमारी पहचान है सही तौल, उचित दाम और तुरंत पेमेंट।</p>
+  </div>
+</section><section id="products">
+  <div class="container">
+    <h2>हमारे अनाज</h2>
+    <div class="grid">
+      <div class="card">🌾 गेहूं</div>
+      <div class="card">🌾 धान</div>
+      <div class="card">🌾 चना</div>
+      <div class="card">🌾 सरसों</div>
+    </div>
+  </div>
+</section><section id="rates">
+  <div class="container">
+    <h2>आज के रेट</h2>
+    <table>
+      <tr><th>अनाज</th><th>रेट (₹/क्विंटल)</th></tr>
+      <tr><td>गेहूं</td><td>____</td></tr>
+      <tr><td>धान</td><td>____</td></tr>
+      <tr><td>चना</td><td>____</td></tr>
+      <tr><td>सरसों</td><td>____</td></tr>
+    </table>
+  </div>
+</section><section id="booking">
+  <div class="container">
+    <h2>ऑर्डर / बिक्री फॉर्म</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="text" name="name" placeholder="आपका नाम" required>
+      <input type="tel" name="phone" placeholder="मोबाइल नंबर" required>
+      <input type="text" name="grain" placeholder="अनाज का नाम" required>
+      <input type="text" name="quantity" placeholder="मात्रा (क्विंटल)" required>
+      <textarea name="message" placeholder="अन्य जानकारी"></textarea>
+      <button type="submit">भेजें</button>
+    </form>
+  </div>
+</section><section id="map">
+  <div class="container map">
+    <h2>हमारी लोकेशन</h2>
+    <iframe src="https://maps.google.com/maps?q=Lakhimpur%20Kheri&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300"></iframe>
+  </div>
+</section><section id="contact">
+  <div class="container">
+    <h2>संपर्क करें</h2>
+    <p>📞 917068902931</p>
+    <p>📍 Lakhimpur Kheri</p>
+    <a class="btn" href="https://wa.me/917068902931?text=Namaste%20mujhe%20anaj%20bechna%20hai">WhatsApp करें</a>
+  </div>
+</section><footer>
+  <p>© 2026 Vivek Galla Vyapari</p>
+</footer><a class="whatsapp" href="https://wa.me/917068902931?text=Namaste%20mujhe%20anaj%20bechna%20hai">💬 Chat</a>
+
+</body>
+</html>
